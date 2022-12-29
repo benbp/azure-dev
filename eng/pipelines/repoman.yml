@@ -15,6 +15,9 @@ pr:
       - templates/
       - eng/pipelines/repoman.yml
 
+variables:
+  skipComponentGovernanceDetection: true
+
 stages:
   - stage: Validation
     jobs:
