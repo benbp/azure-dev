@@ -23,5 +23,5 @@ stages:
     jobs:
       - job: TEST
         steps:
-          - pwsh: Write-Host foobar
+          - pwsh: Write-Host foobar2
             displayName: TEST
